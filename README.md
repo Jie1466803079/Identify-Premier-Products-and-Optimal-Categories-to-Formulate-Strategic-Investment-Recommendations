@@ -6,6 +6,10 @@
 
 `Python` · `pandas` · `scikit-learn` · `K-means` · `Agglomerative (hierarchical) clustering` · `KNN` · `Gaussian Naive Bayes`
 
+<p align="center">
+  <img src="docs/confusion-matrix.png" alt="Confusion matrices comparing the selected classifiers (KNN vs Gaussian Naive Bayes) on the product-tier prediction task, showing strong diagonal accuracy" width="700">
+</p>
+
 ## Problem
 NewChic.com lists products across many categories, and the business needs to know which individual products are its strongest performers ("top 10") and which of the women, men, house, and shoes categories is the best target for investment. The project defines "top" and "best" in terms of current price, discount rate, and like count (a proxy for popularity), then mines the product data to answer both questions and recommend where to allocate resources.
 
